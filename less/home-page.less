@@ -1,6 +1,7 @@
 .home {
 
   .header-section {
+    .mobile-view();
     border-bottom: 2px dashed @silver;
     .header-text {
       .section-padding();
@@ -8,6 +9,7 @@
   }
 
   .content-section {
+    .mobile-view();
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
@@ -18,6 +20,7 @@
     .text-content {
       width: 48%;
       padding-right: 1%;
+      .mobile-view();
     }
 
     .img-content {
@@ -27,6 +30,7 @@
       img {
         border-radius: 10px;
       }
+      .mobile-view();
     }
   }
 
@@ -48,6 +52,7 @@
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    .mobile-view();
 
     img {
       border-radius: 10px;
@@ -59,6 +64,7 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    .mobile-view();
 
     .destination {
       width: 30%;
@@ -66,6 +72,7 @@
       .btn {
         .custom-button(@button-bg, 83%, @white);
       }
+      .mobile-view();
     }
   }
 }// home
