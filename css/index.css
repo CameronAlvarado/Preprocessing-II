@@ -174,7 +174,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px dashed #C0C0C0;
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 3%;
 }
 nav .right-nav {
@@ -203,7 +203,7 @@ nav .right-nav a {
   border-bottom: 2px dashed #C0C0C0;
 }
 .home .header-section .header-text {
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 3%;
 }
 .home .content-section {
@@ -251,4 +251,16 @@ nav .right-nav a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #17A2B8;
+  cursor: pointer;
+  width: 83%;
+  height: 45px;
+  font-size: 1.8rem;
+  border-radius: 15px;
+  color: #FFFFFF;
 }

@@ -1,5 +1,18 @@
 // Mixins in here
 .section-padding() {
-    padding-top: 3%;
+    padding-top: 2%;
     padding-bottom: 3%;
+}
+
+.custom-button(@bg-color, @width, @font-color) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17A2B8;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 1.8rem;
+    border-radius: 15px;
+    color: #FFFFFF;
 }
